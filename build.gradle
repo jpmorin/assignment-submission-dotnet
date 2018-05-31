@@ -13,8 +13,11 @@ apply plugin: "io.pivotal.pal.assignments.plugin"
 
 assignments {
     apiUrl = "https://caddy.pal.pivotal.io"
-    email = "example@example.com"
-    cohortIdentifier = 999999
+    emails = [
+       "example@example.com", // update me
+       "example2@example.com" // update me
+    ]
+    cohortIdentifier = 999999 // update me
 }
 
 defaultTasks "tasks"
