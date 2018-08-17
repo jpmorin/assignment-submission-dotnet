@@ -12,7 +12,7 @@ buildscript {
 apply plugin: "io.pivotal.pal.assignments.plugin"
 
 assignments {
-    apiUrl = "https://caddy.pal.pivotal.io"
+    apiUrl = "https://assignments.education.pivotal.io"
     emails = [
        "student1@example.com", // update me
        "student2@example.com" // update me
